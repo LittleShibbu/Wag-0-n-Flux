@@ -1,0 +1,7 @@
+command: [
+  "python",
+  "app/main.py"
+]
+env:
+  - name: DATABRICKS_HOST
+    value: "https://<your-databricks-instance>.cloud.databricks.com"
